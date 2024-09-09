@@ -64,8 +64,8 @@ export const CONTACTS = {
   PHONE: '085-647-427-024',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/osamajavaid',
-  LINKEDIN: 'https://www.linkedin.com/in/iosamajavaid/',
+  GITHUB: 'https://github.com/agungtu',
+  LINKEDIN: 'https://www.linkedin.com/in/agung-tri-utomo-b29853238/',
   TWITTER: 'https://twitter.com/iosamajavaid',
   FACEBOOK: 'https://www.facebook.com/iosamajavaid',
 };

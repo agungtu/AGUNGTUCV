@@ -18,34 +18,39 @@ const MyExpertise = () => {
         My profile
       </div>
       <Card className="rounded-xl col-sm-6 card" style={{ backgroundColor: "greenyellow", padding: "20px" }}>
-  <div className="flex flex-col md:flex-row items-start md:items-center mb-2">
-    <div className="w-full md:w-1/3 md:px-2">Nama</div>
-    <div className="w-full md:w-1/12 md:px-2">:</div>
-    <div className="w-full md:w-2/3 md:px-2">Agung Tri Utomo</div>
-  </div>
-  <div className="flex flex-col md:flex-row items-start md:items-center mb-2">
-    <div className="w-full md:w-1/3 md:px-2">Umur</div>
-    <div className="w-full md:w-1/12 md:px-2">:</div>
-    <div className="w-full md:w-2/3 md:px-2">25 Tahun</div>
-  </div>
-  <div className="flex flex-col md:flex-row items-start md:items-center mb-2">
-    <div className="w-full md:w-1/3 md:px-2">Alamat</div>
-    <div className="w-full md:w-1/12 md:px-2">:</div>
-    <div className="w-full md:w-2/3 md:px-2">Jl. Srikandi I/9 RT 03 RW 04 Kota Salatiga</div>
-  </div>
-  <div className="flex flex-col md:flex-row items-start md:items-center mb-2">
-    <div className="w-full md:w-1/3 md:px-2">Pendidikan</div>
-    <div className="w-full md:w-1/12 md:px-2">:</div>
-    <div className="w-full md:w-2/3 md:px-2">
-      S1 Teknik Informatika (UKSW), S2 Digital Transformation Intelligence (AMIKOM) - proses Thesis
-    </div>
-  </div>
-  <div className="flex flex-col md:flex-row items-start md:items-center">
-    <div className="w-full md:w-1/3 md:px-2">Pengalaman</div>
-    <div className="w-full md:w-1/12 md:px-2">:</div>
-    <div className="w-full md:w-2/3 md:px-2">-+ 3 Tahun (Programmer)</div>
-  </div>
+  <span className="flex flex-col md:flex-row items-start md:items-center mb-2">
+    <span className="w-full md:w-1/3 px-2">Nama</span>
+    <span className="w-full md:w-2/3 px-2 mt-2"><b>Agung Tri Utomo</b></span>
+  </span>
+  <span className="flex flex-col md:flex-row items-start md:items-center mb-2">
+    <span className="w-full md:w-1/3 px-2">Umur</span>
+    <span className="w-full md:w-2/3 px-2 mt-2"><b>25 Tahun</b></span>
+  </span>
+  <span className="flex flex-col md:flex-row items-start md:items-center mb-2">
+    <span className="w-full md:w-1/3 px-2">Alamat</span>
+    <span className="w-full md:w-2/3 px-2 mt-2"><b>Jl. Srikandi I/9 RT 03 RW 04 Kota Salatiga</b></span>
+  </span>
+  <span className="flex flex-col md:flex-row items-start md:items-center mb-2">
+    <span className="w-full md:w-1/3 px-2">Pendidikan</span>
+    <span className="w-full md:w-2/3 px-2 mt-2"><b>
+      S2 Digital Transformation Intelligence (AMIKOM) - proses Thesis
+      </b>
+    </span>
+  </span>
+  <span className="flex flex-col md:flex-row items-start md:items-center mb-2">
+    <span className="w-full md:w-1/3 px-2"></span>
+    <span className="w-full md:w-2/3 px-2 mt-2"><b>
+      S1 Teknik Informatika (UKSW)
+      </b>
+    </span>
+  </span>
+  <span className="flex flex-col md:flex-row items-start md:items-center">
+    <span className="w-full md:w-1/3 px-2">Pengalaman</span>
+    <span className="w-full md:w-2/3 px-2 mt-2"><b>-+ 3 Tahun (Programmer)</b></span>
+  </span>
 </Card>
+
+
 
 
 
@@ -54,15 +59,16 @@ const MyExpertise = () => {
         My Expertise
       </div>
       <div
-        className="grid justify items-center grid-flow-row md:grid-cols-2 lg:grid-cols-3 grid-rows-auto gap-4 px-2 md:px-8 rounded-xl"
-        style={{ backgroundColor: "greenyellow" }}
-      >
-        {isLoading
-          ? [1, 2, 3, 4, 5, 6].map(() => (
-              <ParagraphSkeleton className={"space-y-2 p-8"} />
-            ))
-          : data?.map((data, key) => <ExpertiseCard key={key} data={data} />)}
-      </div>
+  className="grid justify items-center grid-flow-row md:grid-cols-2 lg:grid-cols-3 grid-rows-auto gap-4 px-2 md:px-8 py-8 my-8 rounded-xl"
+  style={{ backgroundColor: "greenyellow" }}
+>
+  {isLoading
+    ? [1, 2, 3, 4, 5, 6].map(() => (
+        <ParagraphSkeleton className={"space-y-2 p-8"} />
+      ))
+    : data?.map((data, key) => <ExpertiseCard key={key} data={data} />)}
+</div>
+
     </>
   );
 };
