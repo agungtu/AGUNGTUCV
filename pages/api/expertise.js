@@ -19,11 +19,22 @@ const expertise = [
         title: 'Github',
         desc: "GitHub adalah platform pengembangan perangkat lunak berbasis web yang digunakan untuk version control dan collaboration. Di GitHub, developer dapat bekerja bersama-sama dalam sebuah proyek dengan menggunakan Git, sistem version control yang memungkinkan mereka untuk melacak perubahan dalam kode sumber.",
     },
+      {
+        id: 5,
+        title: 'Lecturer',
+        desc: "Sebagai dosen, saya mahir dalam mengajar dan memberikan bimbingan kepada mahasiswa. Saya menggunakan berbagai metode pengajaran untuk memastikan mahasiswa memahami konsep dengan baik.",
+    },
     {
         
         id: 4,
         title: 'Microsoft Office Specialist',
         desc: "Saya sangat berpengalaman dalam menggunakan Microsoft Office. Saya menggunakan Microsoft Office untuk membuat dokumen, menyelesaikan tugas, dan membuat presentasi. saya dulu juga sudah pernah mengikuti pelatihan dan saya sudah mendapatkan sertifikat",
+    },
+      {
+        
+        id: 6,
+        title: 'Sains Komputer',
+        desc: "Saya memiliki pengetahuan yang kuat dalam sains komputer. Saya mampu menganalisis dan menyelesaikan masalah teknis dengan menggunakan prinsip-prinsip ilmiah dan metodologi yang tepat. saya dulu juga sudah pernah mengikuti pelatihan dan saya sudah mendapatkan sertifikat",
     },
 ]
 

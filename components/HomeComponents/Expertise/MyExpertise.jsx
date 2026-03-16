@@ -19,7 +19,7 @@ const MyExpertise = () => {
       </div>
       <Card
         className="rounded-xl col-sm-6 card"
-        style={{ backgroundColor: "greenyellow", padding: "20px" }}
+        style={{ backgroundColor: "yellow", padding: "20px" }}
       >
         <span className="flex flex-col md:flex-row items-start md:items-center mb-2">
           <span className="w-full md:w-1/3 px-2">Nama</span>
@@ -54,7 +54,7 @@ const MyExpertise = () => {
         <span className="flex flex-col md:flex-row items-start md:items-center">
           <span className="w-full md:w-1/3 px-2">Pengalaman</span>
           <span className="w-full md:w-2/3 px-2 mt-2">
-            <b> 3+ Tahun (Programmer)</b>
+            <b> 3+ Tahun (Programmer Front-End Web Developer)</b>
           </span>
         </span>
       </Card>

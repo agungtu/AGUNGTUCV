@@ -1,6 +1,6 @@
 export const NAME = 'Agung Tri Utomo';
 
-export const DESIGNATION = `Front End Web Developer Specialist | Microsoft Office Technologies Specialist`;
+export const DESIGNATION = `Lecturer | Front End Web Developer Specialist | Microsoft Office Technologies Specialist | Computer Science Enthusiast`;
 
 export const DETAILS = {
   Country: 'Indonesia',
@@ -41,6 +41,18 @@ export const SKILLS = [
     title: 'Microsoft Office Specialist',
     level: '95%',
   },
+  {
+    title: 'Sains Komputer',
+    level: '95%',
+  },
+  {
+    title: 'Django Developer',
+    level: '95%',
+  },
+  {
+    title: 'Visualisasi Data',
+    level: '95%',
+  },
 ];
 
 export const TECH_STACK = [
@@ -49,6 +61,11 @@ export const TECH_STACK = [
   'NextJS',
   'TypeScript',
   'NodeJS',
+  'Google Colaboratory',
+'Draw.io',
+'Jinja',
+'Django',
+'python',
   'CSS',
   'TailwindCSS',
   'REST API',
@@ -66,6 +83,5 @@ export const CONTACTS = {
 export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/agungtu',
   LINKEDIN: 'https://www.linkedin.com/in/agung-tri-utomo-b29853238/',
-  TWITTER: 'https://twitter.com/iosamajavaid',
-  FACEBOOK: 'https://www.facebook.com/iosamajavaid',
+ 
 };
