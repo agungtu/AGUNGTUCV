@@ -29,7 +29,7 @@ const Banner = () => {
                                         </span> {"</"}<span className="text-Green sm:text-base xl:text-lg font-bold">div</span>{">"} </span>
                                 </div>
                             </div>
-                            <a href='https://wa.me/6285647427024' spy={true} smooth={true} duration={500} offset={-50} className="button" target='_blank' style={{backgroundColor : "yellowgreen"}}>Hubungi</a>
+                            <a href='https://wa.me/6285710391878' spy={true} smooth={true} duration={500} offset={-50} className="button" target='_blank' style={{backgroundColor : "yellowgreen"}}>Hubungi</a>
                         </div>
                         <div className="w-48 h-52 relative hidden md:block">
                             <img className='absolute top-8 w-full h-full' src="images/emoji.png" alt="emoji" />

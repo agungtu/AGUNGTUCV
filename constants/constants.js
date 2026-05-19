@@ -5,7 +5,7 @@ export const DESIGNATION = `Lecturer | Front End Web Developer Specialist | Micr
 export const DETAILS = {
   Country: 'Indonesia',
   City: 'Salatiga',
-  Age: '25',
+  Age: '26',
 };
 
 export const SKILLS = [
@@ -78,7 +78,7 @@ export const TECH_STACK = [
 
 export const CONTACTS = {
   EMAIL: 'agungtriutomo85@gmail.com',
-  PHONE: '085-647-427-024',
+  PHONE: '085710391878',
 };
 export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/agungtu',

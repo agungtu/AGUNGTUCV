@@ -19,7 +19,7 @@ const MyExpertise = () => {
       </div>
       <Card
         className="rounded-xl col-sm-6 card"
-        style={{ backgroundColor: "yellow", padding: "20px" }}
+        style={{ backgroundColor: "darkgrey", padding: "20px" }}
       >
         <span className="flex flex-col md:flex-row items-start md:items-center mb-2">
           <span className="w-full md:w-1/3 px-2">Nama</span>
@@ -30,13 +30,13 @@ const MyExpertise = () => {
         <span className="flex flex-col md:flex-row items-start md:items-center mb-2">
           <span className="w-full md:w-1/3 px-2">Umur</span>
           <span className="w-full md:w-2/3 px-2 mt-2">
-            <b>25 Tahun</b>
+            <b>26 Tahun</b>
           </span>
         </span>
         <span className="flex flex-col md:flex-row items-start md:items-center mb-2">
           <span className="w-full md:w-1/3 px-2">Alamat</span>
           <span className="w-full md:w-2/3 px-2 mt-2">
-            <b>Jl. Srikandi I/9 RT 03 RW 04 Kota Salatiga</b>
+            <b>Jl. Dewikunthi No. 11 RT 09 RW 04 Kota Salatiga</b>
           </span>
         </span>
         <span className="flex flex-col md:flex-row items-start md:items-center mb-2">
@@ -57,6 +57,12 @@ const MyExpertise = () => {
             <b> 3+ Tahun (Programmer Front-End Web Developer)</b>
           </span>
         </span>
+         <span className="flex flex-col md:flex-row items-start md:items-center">
+          <span className="w-full md:w-1/3 px-2"></span>
+          <span className="w-full md:w-2/3 px-2 mt-2">
+            <b> Dosen Sains Data UIN Salatiga </b>
+          </span>
+        </span>
       </Card>
 
       <div className="px-2 md:px-8 py-4 text-lg font-bold text-Snow">
@@ -64,7 +70,7 @@ const MyExpertise = () => {
       </div>
       <div
         className="grid justify items-center grid-flow-row md:grid-cols-2 lg:grid-cols-3 grid-rows-auto gap-4 px-2 md:px-8 py-8 my-8 rounded-xl"
-        style={{ backgroundColor: "greenyellow" }}
+        style={{ backgroundColor: "darkgrey" }}
       >
         {isLoading
           ? [1, 2, 3, 4, 5, 6].map(() => (
