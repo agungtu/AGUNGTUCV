@@ -57,10 +57,10 @@ const MyExpertise = () => {
             <b> 3+ Tahun (Programmer Front-End Web Developer)</b>
           </span>
         </span>
-         <span className="flex flex-col md:flex-row items-start md:items-center">
+        <span className="flex flex-col md:flex-row items-start md:items-center">
           <span className="w-full md:w-1/3 px-2"></span>
           <span className="w-full md:w-2/3 px-2 mt-2">
-            <b> Dosen Sains Data UIN Salatiga </b>
+            <b> Dosen DTT Prodi Sains Data UIN Salatiga </b>
           </span>
         </span>
       </Card>
@@ -74,8 +74,8 @@ const MyExpertise = () => {
       >
         {isLoading
           ? [1, 2, 3, 4, 5, 6].map(() => (
-              <ParagraphSkeleton className={"space-y-2 p-8"} />
-            ))
+            <ParagraphSkeleton className={"space-y-2 p-8"} />
+          ))
           : data?.map((data, key) => <ExpertiseCard key={key} data={data} />)}
       </div>
     </>
