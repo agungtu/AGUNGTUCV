@@ -54,13 +54,19 @@ const MyExpertise = () => {
         <span className="flex flex-col md:flex-row items-start md:items-center">
           <span className="w-full md:w-1/3 px-2">Pengalaman</span>
           <span className="w-full md:w-2/3 px-2 mt-2">
-            <b> 3+ Tahun (Programmer Front-End Web Developer)</b>
+            <b> Dosen DTT Prodi Sains Data UIN Salatiga </b>
           </span>
         </span>
         <span className="flex flex-col md:flex-row items-start md:items-center">
           <span className="w-full md:w-1/3 px-2"></span>
           <span className="w-full md:w-2/3 px-2 mt-2">
-            <b> Dosen DTT Prodi Sains Data UIN Salatiga </b>
+            <b> Project Manager Inside Tech (Software House) </b>
+          </span>
+        </span>
+        <span className="flex flex-col md:flex-row items-start md:items-center">
+          <span className="w-full md:w-1/3 px-2"></span>
+          <span className="w-full md:w-2/3 px-2 mt-2">
+            <b> 3+ Tahun (Programmer Front-End Web Developer)</b>
           </span>
         </span>
       </Card>
