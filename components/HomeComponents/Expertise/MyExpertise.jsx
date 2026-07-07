@@ -30,7 +30,7 @@ const MyExpertise = () => {
         <span className="flex flex-col md:flex-row items-start md:items-center mb-2">
           <span className="w-full md:w-1/3 px-2">Umur</span>
           <span className="w-full md:w-2/3 px-2 mt-2">
-            <b>26 Tahun</b>
+            <b>27 Tahun</b>
           </span>
         </span>
         <span className="flex flex-col md:flex-row items-start md:items-center mb-2">

@@ -5,7 +5,7 @@ export const DESIGNATION = `Lecturer | Front End Web Developer Specialist | Micr
 export const DETAILS = {
   Country: 'Indonesia',
   City: 'Salatiga',
-  Age: '26',
+  Age: '27',
 };
 
 export const SKILLS = [
