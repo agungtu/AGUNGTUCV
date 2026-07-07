@@ -36,6 +36,18 @@ const expertise = [
         title: 'Sains Komputer',
         desc: "Saya memiliki pengetahuan yang kuat dalam sains komputer. Saya mampu menganalisis dan menyelesaikan masalah teknis dengan menggunakan prinsip-prinsip ilmiah dan metodologi yang tepat. saya dulu juga sudah pernah mengikuti pelatihan dan saya sudah mendapatkan sertifikat",
     },
+     {
+        
+        id: 7,
+        title: 'Project Manager',
+        desc: "Saya memiliki pengalaman dalam manajemen proyek. Saya mampu mengkoordinasikan tim, merencanakan dan melacak kemajuan proyek, serta memastikan proyek selesai tepat waktu dan sesuai dengan kualitas yang diharapkan.",
+    },
+     {
+        
+        id: 8,
+        title: 'Algorithm and Data Structure',
+        desc: "Saya memiliki pemahaman yang kuat tentang algoritma dan struktur data. Saya mampu merancang dan mengimplementasikan algoritma yang efisien untuk memecahkan masalah, serta menggunakan struktur data yang tepat untuk menyimpan dan mengelola data dengan efektif.",
+    },
 ]
 
 export default function handler(req, res) {
