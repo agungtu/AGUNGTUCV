@@ -48,6 +48,12 @@ const expertise = [
         title: 'Algorithm and Data Structure',
         desc: "Saya memiliki pemahaman yang kuat tentang algoritma dan struktur data. Saya mampu merancang dan mengimplementasikan algoritma yang efisien untuk memecahkan masalah, serta menggunakan struktur data yang tepat untuk menyimpan dan mengelola data dengan efektif.",
     },
+     {
+        
+        id: 9,
+        title: 'Business Digital',
+        desc: "Bidang keilmuan yang mengintegrasikan konsep bisnis, manajemen, kewirausahaan, dan teknologi digital untuk menciptakan, mengembangkan, serta mengoptimalkan proses dan model bisnis yang inovatif dan berkelanjutan.",
+    },
 ]
 
 export default function handler(req, res) {
