@@ -54,15 +54,10 @@ const MyExpertise = () => {
         <span className="flex flex-col md:flex-row items-start md:items-center">
           <span className="w-full md:w-1/3 px-2 text-lg font-bold">Pengalaman</span>
           <span className="w-full md:w-2/3 px-2 mt-2">
-            <b> Dosen DTT UIN Salatiga </b>
+            <b> Dosen UIN Salatiga </b>
           </span>
         </span>
-         <span className="flex flex-col md:flex-row items-start md:items-center">
-          <span className="w-full md:w-1/3 px-2"></span>
-          <span className="w-full md:w-2/3 px-2 mt-2">
-            <b> Workshop kurikulum dan RPS berbasis OBE </b>
-          </span>
-        </span>
+        
         <span className="flex flex-col md:flex-row items-start md:items-center">
           <span className="w-full md:w-1/3 px-2"></span>
           <span className="w-full md:w-2/3 px-2 mt-2">
@@ -90,7 +85,13 @@ const MyExpertise = () => {
         <span className="flex flex-col md:flex-row items-start md:items-center">
           <span className="w-full md:w-1/3 px-2"></span>
           <span className="w-full md:w-2/3 px-2 mt-2">
-            <b> Pengawas UjiAN PPG 2 periode (UIN SALATIGA 2025)</b>
+            <b> Pengawas Ujian PPG 2 periode (UIN SALATIGA 2025)</b>
+          </span>
+        </span>
+         <span className="flex flex-col md:flex-row items-start md:items-center">
+          <span className="w-full md:w-1/3 px-2"></span>
+          <span className="w-full md:w-2/3 px-2 mt-2">
+            <b> Workshop kurikulum dan RPS berbasis OBE </b>
           </span>
         </span>
          <span className="flex flex-col md:flex-row items-start md:items-center">
@@ -103,7 +104,7 @@ const MyExpertise = () => {
          <span className="flex flex-col md:flex-row items-start md:items-center">
           <span className="w-full md:w-1/3 px-2"></span>
           <span className="w-full md:w-2/3 px-2 mt-2">
-            <b> Narasumber Coding integrasi matematika (SMK - Dharma Lestari 2026)</b>
+            <b> Narasumber Coding integrasi matematika (SMK - Dharma Lestari Salatiga 2026)</b>
           </span>
         </span>
       </Card>
