@@ -52,6 +52,23 @@ const MyExpertise = () => {
           </span>
         </span>
         <span className="flex flex-col md:flex-row items-start md:items-center">
+          <span className="w-full md:w-1/3 px-2 text-lg font-bold">Karya Tulis</span>
+          <span className="w-full md:w-2/3 px-2 mt-2">
+            <b> JATISI (Jurnal Teknik Informatika dan Sistem Informasi) </b>
+          </span>
+        </span>
+        <span className="flex flex-col md:flex-row items-start md:items-center">
+          <span className="w-full md:w-1/3 px-2 text-lg font-bold"></span>
+          <span className="w-full md:w-2/3 px-2 mt-2">
+            <b>  ANALYZE SALES DATA TO PREDICT SALES OF GOODS BY USING ASSOCIATION AND APRIORI ALGORITHM</b>
+          </span>
+        </span><span className="flex flex-col md:flex-row items-start md:items-center">
+          <span className="w-full md:w-1/3 px-2 text-lg font-bold"></span>
+          <span className="w-full md:w-2/3 px-2 mt-2">
+            <b> PENGEMBANGAN SISTEM INFORMASI ABSENSI KARYAWAN MENGGUNAKAN BARCODE PADA PT PRIMAYUDHA MANDIRIJAYA  </b>
+          </span>
+        </span>
+        <span className="flex flex-col md:flex-row items-start md:items-center">
           <span className="w-full md:w-1/3 px-2 text-lg font-bold">Pengalaman</span>
           <span className="w-full md:w-2/3 px-2 mt-2">
             <b> Dosen UIN Salatiga </b>
@@ -61,7 +78,7 @@ const MyExpertise = () => {
         <span className="flex flex-col md:flex-row items-start md:items-center">
           <span className="w-full md:w-1/3 px-2"></span>
           <span className="w-full md:w-2/3 px-2 mt-2">
-            <b> Project Manager Inside Tech (Software House) </b>
+            <b> Project Manager (Founder) Inside Tech Software House </b>
           </span>
         </span>
         <span className="flex flex-col md:flex-row items-start md:items-center">

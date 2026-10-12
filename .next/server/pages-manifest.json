@@ -2,8 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
   "/api/expertise": "pages/api/expertise.js",
-  "/api/review": "pages/api/review.js",
-  "/api/recommendations": "pages/api/recommendations.js"
+  "/": "pages/index.js",
+  "/api/recommendations": "pages/api/recommendations.js",
+  "/api/review": "pages/api/review.js"
 }
