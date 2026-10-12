@@ -78,7 +78,7 @@ export const TECH_STACK = [
 
 export const CONTACTS = {
   EMAIL: 'agungtriutomo85@gmail.com',
-  PHONE: '085710391878',
+  PHONE: '085736284887',
 };
 export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/agungtu',
