@@ -2,6 +2,8 @@ import Typewriter from 'typewriter-effect';
 import BannerLayout from '../Common/BannerLayout';
 import { Link } from 'react-scroll';
 
+
+// belajar yukkk
 const Banner = () => {
     return (
         <BannerLayout>
