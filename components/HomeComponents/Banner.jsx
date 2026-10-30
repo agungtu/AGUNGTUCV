@@ -3,7 +3,7 @@ import BannerLayout from '../Common/BannerLayout';
 import { Link } from 'react-scroll';
 
 
-// belajar yukkk
+// HABIS INI KITA PULANG YA ....
 const Banner = () => {
     return (
         <BannerLayout>
