@@ -4,6 +4,9 @@ import { Link } from 'react-scroll';
 
 
 // HABIS INI KITA PULANG YA ....
+
+
+// SUDAH CUKUP KAH ?
 const Banner = () => {
     return (
         <BannerLayout>
